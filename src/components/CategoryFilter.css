@@ -1,0 +1,3 @@
+.category-filter { display: flex; gap: 0.5rem; margin-bottom: 2rem; padding-bottom: 0.5rem; overflow-x: auto; }
+.category-filter__pill { flex-shrink: 0; padding: 0.6rem 1.1rem; border: 1.5px solid var(--color-border); border-radius: var(--radius-pill); background: var(--color-surface); font-weight: 700; }
+.category-filter__pill.is-active { background: var(--color-primary); border-color: var(--color-primary); color: #fff; }

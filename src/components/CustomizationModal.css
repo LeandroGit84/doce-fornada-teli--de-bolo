@@ -1,0 +1,13 @@
+.modal-backdrop { position: fixed; inset: 0; z-index: 50; display: grid; place-items: center; padding: 1rem; background: rgba(74, 44, 42, 0.45); }
+.modal { display: flex; flex-direction: column; width: 100%; max-width: 720px; max-height: 90vh; border-radius: var(--radius-xl); background: var(--color-surface); box-shadow: var(--shadow-overlay); overflow: hidden; }
+.modal__header { display: flex; align-items: center; justify-content: space-between; padding: 1rem 1.25rem; background: #fde5e2; }
+.modal__close { display: grid; place-items: center; width: 40px; height: 40px; border: 0; border-radius: 50%; background: #fff; }
+.modal__body { padding: 1.25rem; overflow-y: auto; }
+.modal__product { display: grid; gap: 1rem; margin-bottom: 1rem; }
+.modal__product img { width: 100%; aspect-ratio: 4 / 3; border-radius: var(--radius-md); object-fit: cover; }
+.modal__product p { margin: 0.5rem 0; color: var(--color-text-soft); }
+.modal__price { color: var(--color-primary-dark); font-family: var(--font-title); font-size: 1.75rem; }
+.modal__allergens { display: flex; gap: 0.5rem; margin-bottom: 1.25rem; padding: 0.75rem 1rem; border-radius: var(--radius-md); background: #fde5e2; font-size: 0.85rem; }
+.modal__footer { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.75rem; padding: 1rem 1.25rem; background: #fde5e2; }
+.modal__footer .btn { flex: 1; }
+@media (min-width: 768px) { .modal__product { grid-template-columns: 200px 1fr; } }

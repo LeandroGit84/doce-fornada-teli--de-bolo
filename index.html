@@ -1,0 +1,28 @@
+<!doctype html>
+<!-- CONCEITO: Single Page Application — este é o ÚNICO arquivo HTML do site. -->
+<!-- O React troca o conteúdo dentro de #root, sem recarregar a página. -->
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doce Fornada — Ateliê de Bolos</title>
+    <!-- Fontes do design: Playfair Display (títulos) e Nunito Sans (textos) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Playfair+Display:ital,wght@0,500;0,600;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Ícones usados no protótipo (Material Symbols) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@400,0..1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Ponto de montagem: o React desenha todo o site aqui dentro -->
+    <div id="root"></div>
+    <!-- Ponto de entrada do JavaScript -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

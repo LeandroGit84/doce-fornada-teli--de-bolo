@@ -1,0 +1,7 @@
+.option-group { margin: 0 0 1.25rem; padding: 0; border: 0; }
+.option-group legend { margin-bottom: 0.5rem; padding: 0; font-weight: 700; }
+.option-group__list { display: grid; gap: 0.5rem; }
+.option-group__item { display: flex; flex-direction: column; gap: 2px; padding: 0.75rem 1rem; border: 1.5px solid var(--color-border); border-radius: var(--radius-md); background: #fff; text-align: left; }
+.option-group__item small { color: var(--color-text-soft); }
+.option-group__item.is-selected { border-color: var(--color-primary); background: #fbf1e5; }
+@media (min-width: 768px) { .option-group__list { grid-template-columns: repeat(3, 1fr); } }

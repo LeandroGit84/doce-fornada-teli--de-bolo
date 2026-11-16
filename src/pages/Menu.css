@@ -1,0 +1,9 @@
+.menu__header { display: grid; gap: 0.75rem; margin-bottom: 2rem; }
+.menu__header h1 { font-size: 2.25rem; }
+.menu__header p { color: var(--color-text-soft); max-width: 560px; }
+.menu__header .badge { justify-self: start; display: inline-flex; align-items: center; gap: 0.25rem; }
+.menu__search { max-width: 480px; }
+.menu__grid { display: grid; gap: 1.5rem; }
+.menu__empty { padding: 3rem 0; text-align: center; color: var(--color-text-soft); }
+@media (min-width: 640px) { .menu__grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1024px) { .menu__grid { grid-template-columns: repeat(3, 1fr); } .menu__header h1 { font-size: 3rem; } }
