@@ -1,4 +1,4 @@
-# Casa de bolos caseiros — Ateliê de Bolos 🎂
+# Casa de Bolos Caseiros — Ateliê de Bolos 🎂
 
 Loja de bolos feita com **Vite + React**, baseada no protótipo do Stitch.
 Projeto pensado para **estudo**: o código tem comentários explicando o que cada trecho faz,
