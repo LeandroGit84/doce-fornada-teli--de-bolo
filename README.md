@@ -1,4 +1,4 @@
-# Doce Fornada — Ateliê de Bolos 🎂
+# Casa de bolos caseiros — Ateliê de Bolos 🎂
 
 Loja de bolos feita com **Vite + React**, baseada no protótipo do Stitch.
 Projeto pensado para **estudo**: o código tem comentários explicando o que cada trecho faz,
@@ -13,12 +13,12 @@ npm run dev     # abre o site em http://localhost:5173
 
 ## Páginas
 
-| Rota | Página | O que tem |
-|---|---|---|
-| `/` | Início | Hero, passo a passo, queridinhos, chamada para o WhatsApp |
-| `/cardapio` | Cardápio | Busca, filtro por categoria, modal de personalização |
-| `/sobre-nos` | Sobre nós | História da Dona Marta e valores |
-| `/sacola` | Sacola | Itens, agendamento (48h), frete e finalização via WhatsApp |
+| Rota         | Página    | O que tem                                                  |
+| ------------ | --------- | ---------------------------------------------------------- |
+| `/`          | Início    | Hero, passo a passo, queridinhos, chamada para o WhatsApp  |
+| `/cardapio`  | Cardápio  | Busca, filtro por categoria, modal de personalização       |
+| `/sobre-nos` | Sobre nós | História da Dona Marta e valores                           |
+| `/sacola`    | Sacola    | Itens, agendamento (48h), frete e finalização via WhatsApp |
 
 ## Estrutura
 
