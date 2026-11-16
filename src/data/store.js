@@ -2,12 +2,12 @@
 // POR QUÊ: se o telefone ou o frete mudar, você altera UM lugar só.
 
 export const STORE = {
-  name: 'Doce Fornada',
+  name: 'Casa de Bolos Caseiros',
   tagline: 'Ateliê de Bolos',
-  whatsappNumber: '5513996699310', // formato internacional exigido pelo wa.me
-  phoneLabel: '(13) 99669-9310',
-  instagram: '@docefornada.atelie',
-  address: 'Rua das Acácias, 128 – Boqueirão, Praia Grande – SP, CEP 11700-000',
+  whatsappNumber: '5513992130305', // formato internacional exigido pelo wa.me
+  phoneLabel: '(13) 99213-0305',
+  instagram: '@Casadeboloscaseiross',
+  address: 'Av. Júlio Prestes de Albuquerque, 540 – Praia Grande – SP',
   openingHours: 'Segunda a Sábado: 9h às 18h',
   minNoticeHours: 48, // antecedência mínima do pedido
   deliveryFee: 15, // valor fixo do frete (R$)
